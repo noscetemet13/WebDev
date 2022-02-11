@@ -1,0 +1,202 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background: #fafafa;
+    margin: 0px;
+    height: auto;
+}
+
+.barlyq-zat {
+    margin-top: 50px;
+    width: min(80vw, 870px);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.usti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.suretter {
+    display: flex;
+    flex-direction: row;
+    width: 454px;
+    height: 618px;
+    /* padding-bottom: 5px; */
+}
+
+#suret {
+    width: 243px;
+    height: 430px;
+    flex-shrink: 0;
+    position: relative;
+    right: 305px;
+    top: 98px;
+}
+
+.kiru-boligi {
+    width: 350px;
+}
+
+.kiru {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 0 10px;
+    background: white;
+    border: 1px #dbdbdb solid;
+}
+
+.kiru form {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 0px 40px;
+}
+
+.kiru input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 38.67px;
+    border-radius: 2px;
+    border: 1px solid #dddfe2;
+    padding: 5px;
+    background-color: #fafafa;
+    /* padding-bottom: 5px; */
+    font-family: inherit;
+    font-size: 12px;
+    color: #1d2129;
+}
+
+.kiru a {
+    color: #00376b;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
+
+.kiru a[role="button"] {
+    margin: 15px 0;
+    color: #385185;
+    font-size: 0.9em;
+}
+
+.kiru a[role="button"] img {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.kiru.tirkelu{
+    padding: 5px 15px;
+    margin: 0%;
+}
+
+.kiru.tirkelu p{
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.kiru.tirkelu p a {
+    color: #0095f7;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+.kiru input::placeholder {
+    color: #90949c;
+}
+
+.kiru input[type="submit"] {
+    font-size: 15px;
+    color: white;
+    background-color: #0095f6;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 35px;
+}
+
+div.syzyq.sol{
+    flex-grow: 1;
+    border-bottom: 1px solid #dadde1;
+    width: 100%;
+    margin: 10px 15px 10px 40px;
+}
+
+div.syzyq.on{
+    flex-grow: 1;
+    border-bottom: 1px solid #dadde1;
+    width: 100%;
+    margin: 10px 40px 10px 15px;
+}
+
+span.syzyq {
+    color: #8e8e8e;
+    font-size: 1.2em;
+}
+
+.qosymshalar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.qosymshalar p {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.qosymshalar img {
+    width: 130px;
+    margin: 7px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: transparent;
+    margin-top: 40px;
+    padding: 20px 0;
+    width: 820px;
+    color: #737373;
+    font-size: 12px;
+    height: auto;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    line-height: 2em;
+}
+
+footer ul li {
+    display: inline-block;
+    flex-shrink: 0;
+    padding-right: 9px;
+}
+
+footer select {
+    border: 0;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font: inherit;
+    width: 7em;
+}

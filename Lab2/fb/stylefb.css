@@ -1,0 +1,226 @@
+body {
+    background-color: #f0f2f5;
+    overflow: initial;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#usti{
+    margin: 135px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 98px;
+}
+
+#ustingi{
+    width: min(1000px, 90vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-men-text{
+    width: 500px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+#logo{
+    width: 302px;
+    height: 106px;
+    margin-left: -30px;
+}
+
+#text-qoi{
+    margin-top: -10px;
+    width: 500px;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.kiru-ne-tirkelu{
+    height: 352px;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    width: 396px;
+    text-align: center;
+    padding: 0px 0 28px;
+    background-color: white;
+}
+
+#bolek{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-men-qupiasoz{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 20px 0px 20px;
+    padding: 14px 16px;
+    width: 364px;
+    height: 52px;
+    border: 1px solid #dddfe2;
+    /* color: #1d2129; */
+    border-radius: 6px;
+    font-size: 17px;
+}
+.login-men-qupiasoz:focus{
+    outline:none;
+    border-color:#1877f2;
+    box-shadow:0 0 0 2px #e7f3ff;
+    caret-color:#1877f2
+}
+
+#kiru-tuimesi{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: white;
+    margin: 19px 20px 5px;
+    font-weight: bold;
+}
+#qupiasozdi-bilmeidi{
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.syzyq{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    width: 90%;
+    margin: 9px 0px 25px 0px;
+    display: flex;
+    text-align: center;
+}
+.tirkelu{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color:white;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 200px; */
+    font-weight: bold;
+}
+.zhana-acc-zhasau{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.zhana-acc-zhasau:hover{
+    text-decoration: underline;
+}
+.zhana-acc{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 55px 0px 0px 0px;
+    text-align: center;
+    position: relative;
+    /* margin-top: -100px; */
+}
+footer {
+    background-color: white;
+    padding: 20px 0;
+    height: auto;
+    width: auto;
+    color:#848484;
+}
+.asty{
+    width: min(1000px, 90vw);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color:#848484;
+}
+
+.tilder{
+    width: 980px;
+    /* margin-left: 15px; */
+    height: 40px;
+    line-height: 1.7em;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tilder li{
+    color:#848484;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    /* padding-right: 9px; */
+}
+
+.tilder li:hover{
+    text-decoration: underline;
+}
+
+#syzyq-tagy{
+    border-bottom: 1px solid #bbb8b898;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0px;
+    display: flex;
+    text-align: center;
+}
+
+.aqparat{
+    width: 980px;
+    margin: 10px auto auto 10px;
+    font-size: 12px;
+    color:#848484;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aqparat a{
+    color:#848484;
+    display: inline-block;
+    margin: 6px 6px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 5px;
+    /* line-height: 1.7em; */
+}
+
+.aqparat a:hover{
+    text-decoration: underline;
+}
+.aqparat p{
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+#zharnama-suret{
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+}
+
+#til-suret{
+    width:37px;
+    height: 27px;
+    vertical-align: -8px;
+}
