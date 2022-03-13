@@ -1,0 +1,19 @@
+<div *ngFor="let product of products">
+
+    <h3>
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+            {{ product.name }}
+        </a>
+    </h3>
+    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+        <img src="{{product.image1}}" width="240px">
+    </a>
+    <div>
+        <img src="assets/{{product.rating}}" width="150px">
+    </div>
+    <p *ngIf="product.description">
+        Description: {{ product.description }}
+    </p>
+    
+
+</div>

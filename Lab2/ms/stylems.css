@@ -117,11 +117,18 @@ a.tuime.aq {
     background-color: white;
 }
 
+.kiwkentaylar {
+    /* flex-basis: 20%;
+    flex-shrink: 1;
+    display: flex; */
+    flex-flow: row wrap;
+}
+
 .kiwkentay {
     flex-basis: 20%;
     flex-shrink: 1;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
 }
 
 .kiwkentay h3 {
