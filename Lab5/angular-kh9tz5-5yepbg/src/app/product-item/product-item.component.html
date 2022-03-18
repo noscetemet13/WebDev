@@ -10,6 +10,14 @@
     </a>
     <div>
         <img src="assets/{{product.rating}}" width="150px">
+        <p>
+            {{product.rating_text}}
+        </p>
+        <button (click)="rating1(product)" [disabled] = "product.isDisabled">1</button>
+        <button (click)="rating2(product)" [disabled] = "product.isDisabled">2</button>
+        <button (click)="rating3(product)" [disabled] = "product.isDisabled">3</button>
+        <button (click)="rating4(product)" [disabled] = "product.isDisabled">4</button>
+        <button (click)="rating5(product)" [disabled] = "product.isDisabled">5</button>
     </div>
     <p *ngIf="product.description">
         Description: {{ product.description }}

@@ -16,9 +16,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/51KmHdRhR5L._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/610QHF9C1TL._AC_SX569_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 1
+    categoryId: 1,
+    isDisabled: false
   },
   {
     id: 2,
@@ -30,9 +32,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/81jfIU6phrL._AC_SX466_.jpg',
     image3:'https://m.media-amazon.com/images/I/71buMKwU1RL._AC_SX466_.jpg',
     rating:'5.png',
+    rating_text: 5,
     likes: 0,
     show: true,
-    categoryId: 1
+    categoryId: 1,
+    isDisabled: false
   },
   {
     id: 3,
@@ -44,9 +48,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/619prszLWuL._AC_SX466_.jpg',
     image3:'https://m.media-amazon.com/images/I/61xEN4thgIL._AC_SX466_.jpg',
     rating:'5.png',
+    rating_text: 5,
     likes: 0,
     show: true,
-    categoryId: 1
+    categoryId: 1,
+    isDisabled: false
   },
   {
     id: 4,
@@ -58,9 +64,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/716JWeEbBhL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71EEhGsO6lL._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 2
+    categoryId: 2,
+    isDisabled: false
   },
   {
     id: 5,
@@ -72,9 +80,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71fUBBCOeyL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71wtRXGxb1S._AC_SX679_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 2
+    categoryId: 2,
+    isDisabled: false
   },
   {
     id: 6,
@@ -86,9 +96,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/61GFJV4YlWL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/61vk0zlOsJL._AC_SX679_.jpg',
     rating:'5.png',
+    rating_text: 5,
     likes: 0,
     show: true,
-    categoryId: 3
+    categoryId: 3,
+    isDisabled: false
   },
   {
     id: 7,
@@ -100,9 +112,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/613VGjdweaL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/61HleTWjtbL._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 3
+    categoryId: 3,
+    isDisabled: false
   },
   {
     id: 8,
@@ -114,9 +128,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71ebABYJ-uL._AC_SY450_.jpg',
     image3:'https://m.media-amazon.com/images/I/712cTnMApXL._AC_SY450_.jpg',
     rating:'3.5.png',
+    rating_text: 3.5,
     likes: 0,
     show: true,
-    categoryId: 4
+    categoryId: 4,
+    isDisabled: false
   },
   {
     id: 9,
@@ -128,9 +144,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/61DBhNhTpYL._AC_SY450_.jpg',
     image3:'https://m.media-amazon.com/images/I/71+YKl8hMjL._AC_SY450_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 4
+    categoryId: 4,
+    isDisabled: false
   },
   {
     id: 10,
@@ -142,9 +160,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/818B97p+vcL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71QjZ06DaFL._AC_SX679_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 4
+    categoryId: 4,
+    isDisabled: false
   },
   {
     id: 11,
@@ -156,9 +176,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71JJueCRWJS._AC_SX466_.jpg',
     image3:'https://m.media-amazon.com/images/I/81Lq1AfCYpS._AC_SX466_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 1
+    categoryId: 1,
+    isDisabled: false
   },
   {
     id: 12,
@@ -170,9 +192,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/513H49gKsjL._AC_SY500_.jpg',
     image3:'https://m.media-amazon.com/images/I/818tvn4YTlL._AC_SY500_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 1
+    categoryId: 1,
+    isDisabled: false
   },
   {
     id: 13,
@@ -184,9 +208,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/716ro9WFoOL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/818NhILH20L._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 2
+    categoryId: 2,
+    isDisabled: false
   },
   {
     id: 14,
@@ -198,9 +224,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71LJYkMdN3L._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71G7k6pqaPL._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 2
+    categoryId: 2,
+    isDisabled: false
   },
   {
     id: 15,
@@ -212,9 +240,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/81k2TA3yNvL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/81cS6EF-qDL._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 2
+    categoryId: 2,
+    isDisabled: false
   },
   {
     id: 16,
@@ -226,9 +256,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71qZ3taEZHL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71Cp6qRFIwL._AC_SX679_.jpg',
     rating:'4.png',
+    rating_text: 4,
     likes: 0,
     show: true,
-    categoryId: 3
+    categoryId: 3,
+    isDisabled: false
   },
   {
     id: 17,
@@ -240,9 +272,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/81Y1DGxkzpL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71IGMaNfMmS._AC_SX679_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 3
+    categoryId: 3,
+    isDisabled: false
   },
   {
     id: 18,
@@ -254,9 +288,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/81WcAuRhydL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/81i1ihj3DFL._AC_SX679_.jpg',
     rating:'5.png',
+    rating_text: 5,
     likes: 0,
     show: true,
-    categoryId: 3
+    categoryId: 3,
+    isDisabled: false
   },
   {
     id: 19,
@@ -268,9 +304,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71gtHtMramS._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71nim+DaEBS._AC_SX679_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 4
+    categoryId: 4,
+    isDisabled: false
   },
   {
     id: 20,
@@ -282,9 +320,11 @@ export const products = [
     image2:'https://m.media-amazon.com/images/I/71JL+uEoftL._AC_SX679_.jpg',
     image3:'https://m.media-amazon.com/images/I/71EHAHrIh9L._AC_SX679_.jpg',
     rating:'4.5.png',
+    rating_text: 4.5,
     likes: 0,
     show: true,
-    categoryId: 4
+    categoryId: 4,
+    isDisabled: false
   }
 ];
 
