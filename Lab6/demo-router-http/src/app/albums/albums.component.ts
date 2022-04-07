@@ -41,6 +41,18 @@ export class AlbumsComponent implements OnInit {
     });
   }
 
+    // @ts-ignore
+  sortAlbumAsc(albums){
+    // @ts-ignore
+    // console.log(albums.sort((a, b) => (a.title > b.title) ? 1 : (a.title === b.title) ? ((a.id > b.id) ? 1 : -1) : -1 ))
+    this.albums = this.albums.sort((a, b) => (a.title > b.title) ? 1 : (a.title === b.title) ? ((a.id > b.id) ? 1 : -1) : -1 );
+  }
+
+  // @ts-ignore
+  sortAlbumDesc(albums){
+    // @ts-ignore
+    this.albums = this.albums.sort((a, b) => (a.title < b.title) ? 1 : (a.title === b.title) ? ((a.id < b.id) ? 1 : -1) : -1 );
+  }
   deleteAlbum(id: number) {
     this.albums = this.albums.filter((x) => x.id !== id);
     this.albumsService.deleteAlbum(id).subscribe(() => {

@@ -3,6 +3,8 @@
 <fieldset>
   <input type = "text" [(ngModel)] = "newAlbum" placeholder="You can add new album here, enter the name">
   <button (click)="addAlbum()" >Add new Album</button>
+  <button (click)="sortAlbumAsc(albums)">Sorting Ascending</button>
+  <button (click)="sortAlbumDesc(albums)">Sorting Descending</button>
 </fieldset>
 
 <ul *ngIf = "loaded">

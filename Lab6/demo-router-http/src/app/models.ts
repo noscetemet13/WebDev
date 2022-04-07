@@ -10,3 +10,5 @@ export interface AlbumPhotos {
   url: string;
   thumbnailUrl: string;
 }
+
+
